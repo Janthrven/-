@@ -1,0 +1,38 @@
+.my-container{
+  width: 100%;
+  height: 180rpx;
+}
+.my-container image{
+  width: 150rpx;
+  height: 150rpx;
+  float: left;
+  margin: 10rpx;
+}
+.my-container text{
+  font-size: 34rpx;
+  margin-top: 20rpx;
+  float: left;
+  line-height: 150rpx;
+}
+.container{
+  background-color: #ffffff;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FF1493;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.calendar {
+  --calendar-height:500px;
+}
+
+
